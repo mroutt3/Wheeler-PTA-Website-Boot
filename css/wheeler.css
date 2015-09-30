@@ -11,6 +11,11 @@ p {
 	color: #000;
 }
 
+a:hover {
+	color: white;
+	text-decoration: none;
+	}
+
 #ContactHeader {
 	color: red;
 	padding-bottom: 1.5em;
@@ -95,10 +100,8 @@ dd {
 	color: blue;
 }
 
-a:hover {
-	color: #ADD8E6;
-	text-decoration: none;
-	}
+
+/*FOOTER*/
 
 footer {
 	text-align: center;
