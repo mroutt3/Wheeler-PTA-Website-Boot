@@ -16,6 +16,11 @@ $("#joinPTA").click(function (){
 
 $("#submit").click(function(){
 	$("form").hide();
-    alert("THANK YOU FOR JOINING WHEELER ELEMENTARY PTA");
+    alert("THANK YOU FOR SUPPORTING WHEELER ELEMENTARY PTA");
     });
 
+
+// Hide form when click
+$("#close").click (function(){
+	$("form").hide();
+});
