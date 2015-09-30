@@ -65,6 +65,7 @@ ul {
 .navbar-default {
 	background-color: #32cd32;
 	background-image: none;
+	border-color: #32cd32;
 }
 
 .navbar-collapse {
