@@ -1,0 +1,89 @@
+body {
+  background-image: url('http://www.jcpsky.net/Schools/Elementary/Wheeler/images/blue-background.jpg');
+  padding-top: 5%;
+  }
+
+h1 {
+	margin-top: .15em;
+}
+
+
+p {
+	color: #000;
+}
+
+
+/*NAVIGATION*/
+
+.navbar-default .navbar-brand {
+    color: blue;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: blue;
+}
+
+dt {
+	color: #000060;
+	font-size: 1.5em;
+}
+
+dd {
+	font-size: 1.25em;
+	font-weight: normal;
+	font-style: italic;
+	margin-left: 2em;
+	line-height: 1.25em;
+}
+
+.dl-horizontal dd {
+	margin-bottom: 2em;
+	font-size: 1.25em;
+	font-style: normal;
+	color: #000;
+}
+
+.dl-horizontal .glyphicon {
+	font-size: 2em;
+}
+
+#ContactHeader {
+	color: red;
+	padding-bottom: 1.5em;
+}
+
+/*GLYPHICONS*/
+
+.glyphicon {
+	font-size: 3em;
+	display: block;
+	text-align: center;
+	color: blue;
+	padding-bottom: .5em;
+}
+
+
+.glyphicon:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.glyphicon-gift {
+	font-size: 4em;
+	padding-top: .25em;
+	padding-bottom: .25em;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+	}
+
+footer {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+footer p {
+	color: white;
+}
