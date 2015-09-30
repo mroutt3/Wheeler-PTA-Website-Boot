@@ -11,6 +11,15 @@ body {
 
 h1 {
 	margin-top: .15em;
+	color: blue;
+}
+
+h2 {
+	color: blue;
+}
+
+h3 {
+	color: blue;
 }
 
 p {
