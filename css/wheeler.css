@@ -81,7 +81,7 @@ dd {
 
 
 .glyphicon:hover {
-	/*color: #ADD8E6;*/
+	color: #ADD8E6;
 	text-decoration: none;
 }
 
@@ -89,6 +89,10 @@ dd {
 	font-size: 4em;
 	padding-top: .25em;
 	padding-bottom: .25em;
+}
+
+.glyphicon-gift:hover {
+	color: blue;
 }
 
 a:hover {
