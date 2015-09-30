@@ -73,8 +73,10 @@
 
 <form action="mailto:mlr66@bellsouth.net" enctype="text/plain" method="post">
                 <div="form-group" class="bg-success">
+                  <button type="button" class="close" id="close" aria-label="Close"><span aria-hidden="true">Close &times;</span></button>
                   <h3>PTA Membership Form</h3>
                   <p>Membership Dues are $5 per person, and are for the school-year</p>
+                  <ul>
                   <li><label for = "Date">Todays Date:</label>
                       <input type="date" class="form-control" id="Date" name="date"></li>
                   <li><label for = "Name1">Member #1 -- Full Name:</label>
@@ -104,13 +106,13 @@
                     <input type="text" class="form-control" id="Student3" name="student_3"></li>
                   <li><label for = "Student4">Student #4 -- Full Name:</label>
                     <input type="text" class="form-control" id="Student4" name="student_4"></li>
-
+                  </ul>
                   <p>
                     <input class="btn btn-default btn-medium" type="submit" value="SUBMIT" id="submit">
                   </p>
 
                   <p>Please send printed form and $5 per member to Wheeler Elementary.  You may send in your child's backpack to the attention of their teacher, or mail to Wheeler Elementary PTA, 5700 Cynthia Drive, Louisville, KY 40291</p>
-          
+                  <input class="btn btn-default btn-medium" type="close" value="CLOSE" id="close"> 
               </form>
           </div>
 
@@ -174,7 +176,6 @@
 
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
     <script src="js/wheeler.js" type="text/javascript" charset="utf-8"></script>
 
   </body>
