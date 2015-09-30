@@ -1,17 +1,36 @@
 body {
   background-image: url('http://www.jcpsky.net/Schools/Elementary/Wheeler/images/blue-background.jpg');
-  /*padding-top: 5%;*/
+  padding-top: 5%;
   }
 
 h1 {
 	margin-top: .15em;
 }
 
-
 p {
 	color: #000;
 }
 
+#ContactHeader {
+	color: red;
+	padding-bottom: 1.5em;
+}
+
+/*FORMS*/
+
+form {
+	padding: 5px;
+	border-style: solid;
+
+}
+
+ul {
+	list-style: none;
+}
+
+.close {
+	float: right;
+}
 
 /*NAVIGATION*/
 
@@ -23,6 +42,7 @@ p {
     color: blue;
 }
 
+/*TABLE LISTS*/
 dt {
 	color: #000060;
 	font-size: 1.5em;
@@ -47,10 +67,7 @@ dd {
 	font-size: 2em;
 }
 
-#ContactHeader {
-	color: red;
-	padding-bottom: 1.5em;
-}
+
 
 /*GLYPHICONS*/
 
