@@ -7,14 +7,7 @@ body {
 	background-color: #ffcc00;
 }
 
-.navbar-default {
-	background-color: #32cd32;
-	background-image: none;
-}
 
-.navbar-collapse {
-	background-color: #32cd32;
-}
 
 h1 {
 	margin-top: .15em;
@@ -53,12 +46,26 @@ ul {
 /*NAVIGATION*/
 
 .navbar-default .navbar-brand {
-    color: blue;
+    color: white;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: blue;
 }
+
+.navbar-default {
+	background-color: #32cd32;
+	background-image: none;
+}
+
+.navbar-collapse {
+	background-color: #32cd32;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: white;
+	text-decoration: none;
+	}
 
 /*TABLE LISTS*/
 dt {
